@@ -2,7 +2,7 @@
 
 namespace DataStructures
 
-class Node
+class TreeNode
 {
     public $data;
     public $left;
