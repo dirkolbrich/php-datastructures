@@ -1,0 +1,23 @@
+{
+    "name": "dirkolbrich/php-datastructures",
+    "description": "DataStructures for PHP",
+    "license": "MIT",
+    "keywords": ["data structures", "php"],
+    "authors": [
+        {
+            "name": "Dirk Olbrich",
+            "email": "mail@dirkolbrich.de"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DataStructures\\": "src"
+        }
+    }
+}
