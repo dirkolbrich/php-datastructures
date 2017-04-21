@@ -1,3 +1,5 @@
-# PHP Data Strustures
+[![Build Status](https://travis-ci.org/dirkolbrich/php-datastructures.svg?branch=master)](https://travis-ci.org/dirkolbrich/php-datastructures)
 
-My test on simple data structures and their implementation in PHP.
+# PHP Data Structures
+
+My test on simple data structures and the implementation in PHP.
