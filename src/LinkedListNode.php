@@ -20,9 +20,9 @@ class LinkedListNode
      *
      * @param mixed $data
      */
-    public function __construct($data)
+    public function __construct($data = null)
     {
-        $this->data = $data;
+        $this->data = ($data == null) ? null : $data;
     }
 
     /**
