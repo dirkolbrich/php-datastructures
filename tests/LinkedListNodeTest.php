@@ -30,7 +30,7 @@ class LinkedListNodeTest extends TestCase
         $node = new LinkedListNode('test');
 
         $this->assertInstanceOf("DataStructures\LinkedListNode", $node);
-        $this->assertEquals($node->data, 'test');
+        $this->assertEquals($node->data(), 'test');
         $this->assertFalse($node->isEmpty());
     }
 
