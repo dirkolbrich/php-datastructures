@@ -16,10 +16,10 @@ class LinkedListNodeTest extends TestCase
         $node = new LinkedListNode();
 
         $this->assertInstanceOf("DataStructures\LinkedListNode", $node);
-        $this->assertEmpty($task->data());
-        $this->assertNull($task->next());
-        $this->assertTrue($task->isEmpty());
-        $this->assertFalse($task->hasNext());
+        $this->assertEmpty($node->data());
+        $this->assertNull($node->next());
+        $this->assertTrue($node->isEmpty());
+        $this->assertFalse($node->hasNext());
     }
 
     /**
@@ -30,8 +30,8 @@ class LinkedListNodeTest extends TestCase
         $node = new LinkedListNode('test');
 
         $this->assertInstanceOf("DataStructures\LinkedListNode", $node);
-        $this->assertEquals($task->data, 'test');
-        $this->assertFalse($task->isEmpty());
+        $this->assertEquals($node->data, 'test');
+        $this->assertFalse($node->isEmpty());
     }
 
     public function testSettingNext()
@@ -39,7 +39,7 @@ class LinkedListNodeTest extends TestCase
         $node = new LinkedListNode('test');
         $node->setNext('test next');
         
-        $this->assertTrue($task->hasNext());
-        $this->assertEquals($task->next(), 'test next');
+        $this->assertTrue($node->hasNext());
+        $this->assertEquals($node->next(), 'test next');
     }
 }
