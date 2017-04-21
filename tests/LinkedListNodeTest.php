@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace DataStructures\Tests;
+//namespace DataStructures\Tests;
 
-use DataStructures\LinkedListNode;
+//use DataStructures\LinkedListNode;
 use PHPUnit\Framework\TestCase;
 
 class LinkedListNodeTest extends TestCase
