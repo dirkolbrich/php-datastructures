@@ -41,7 +41,7 @@ class LinkedList
     {
         $node = new LinkedListNode($data);
         $current = $this->head;
-        $node->next() = $current;
+        $node->setNext() = $current;
         $this->head = $node;
         
         // increase count by 1
