@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace DataStructures
+namespace DataStructures;
 
 use DataStructures/LinkedListNode;
 
