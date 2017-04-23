@@ -53,7 +53,7 @@ class LinkedList
     /**
      * @return mixed
      */
-    public function pop(): mixed
+    public function pop()
     {
         $current = $this->head;
         $this->head = $current->next();
@@ -67,7 +67,7 @@ class LinkedList
     /**
      * @return mixed
      */
-    public function peek(): mixed
+    public function peek()
     {
         return $this->head->data();
     }
