@@ -61,14 +61,14 @@ class LinkedList
         // decrease count by 1
         --$this->count;
         
-        return $current->data; 
+        return $current->data(); 
     }
 
     /**
      * @return mixed
      */
-    public function peek()
+    public function peek(): mixed
     {
-        return $this->head->data;
+        return $this->head->data();
     }
 }

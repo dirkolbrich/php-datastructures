@@ -42,4 +42,13 @@ class LinkedListNodeTest extends TestCase
         $this->assertTrue($node->hasNext());
         $this->assertEquals($node->next(), 'test next');
     }
+
+    public function testSetData()
+    {
+        $node = new LinkedListNode();
+        $node->setData('test data');
+        
+        $this->assertFalse($node->isEmpty());
+        $this->assertEquals($node->data(), 'test data');
+    }
 }
