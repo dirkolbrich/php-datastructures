@@ -41,7 +41,7 @@ class LinkedList
     {
         $node = new LinkedListNode($data);
         $current = $this->head;
-        $node->next = $current;
+        $node->next() = $current;
         $this->head = $node;
         
         // increase count by 1
@@ -56,7 +56,7 @@ class LinkedList
     public function pop(): mixed
     {
         $current = $this->head;
-        $this->head = $current->next;
+        $this->head = $current->next();
         
         // decrease count by 1
         --$this->count;
