@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/dirkolbrich/php-datastructures.svg?branch=master)](https://travis-ci.org/dirkolbrich/php-datastructures)
+[![Travis CI](https://img.shields.io/travis/dirkolbrich/php-datastructures/master.svg?style=flat-square)]
+(https://travis-ci.org/dirkolbrich/php-datastructures)
+[![Fun](https://img.shields.io/badge/fun-100%-brightgreen.svg?style=flat-square)]()
 
 # PHP Data Structures
 
