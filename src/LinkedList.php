@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace DataStructures;
 
-use DataStructures/LinkedListNode;
+use DataStructures\LinkedListNode;
 
 class LinkedList
 {
